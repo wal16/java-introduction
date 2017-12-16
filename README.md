@@ -1,1 +1,0 @@
-# jdqz1-java
