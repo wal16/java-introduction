@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Uczen {
+public class Uczen implements Comparable {
 
     private int numerUcznia;
     private String imie;
@@ -43,38 +43,38 @@ public class Uczen {
         this.oceny = oceny;
     }
 
-    void ustawOceny(){
+    void ustawOceny() {
         for (int i = 0; i < 3; i++) {
             oceny.add((int) (Math.random() * 5 + 1));
         }
     }
 
-    public double srednia(){
+    public double srednia() {
         double suma = 0;
 
-        for (int ocena : oceny){
+        for (int ocena : oceny) {
             suma += ocena;
         }
 
         return suma / oceny.size();
     }
 
-    public int najwyzsza(){
+    public int najwyzsza() {
         int najwyzsza = 0;
 
-        for (int ocena : oceny){
-            if (ocena > najwyzsza){
+        for (int ocena : oceny) {
+            if (ocena > najwyzsza) {
                 najwyzsza = ocena;
             }
         }
         return najwyzsza;
     }
 
-    public int najnizsza(){
+    public int najnizsza() {
         int najnizsza = Integer.MAX_VALUE;
 
-        for (int ocena : oceny){
-            if (ocena < najnizsza){
+        for (int ocena : oceny) {
+            if (ocena < najnizsza) {
                 najnizsza = ocena;
             }
         }
@@ -89,5 +89,14 @@ public class Uczen {
                 ", nazwisko='" + nazwisko + '\'' +
                 ", oceny=" + oceny +
                 '}';
+    }
+
+
+    public int compareTo(Object o) {
+        Uczen uczen = (Uczen) o;
+
+        int wynikPorownania = imie.compareTo(uczen.getImie());
+
+        return wynikPorownania;
     }
 }

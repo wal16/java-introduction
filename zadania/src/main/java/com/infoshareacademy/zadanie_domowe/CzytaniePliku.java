@@ -3,8 +3,7 @@ package com.infoshareacademy.zadanie_domowe;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class CzytaniePliku {
 
@@ -24,6 +23,8 @@ public class CzytaniePliku {
         System.out.println(linie);
 
         List<Uczen> uczniowie = new ArrayList<>();
+        Map<Integer, Uczen> uczniowieJakoMapa = new HashMap<>();
+
         int numer = 1;
         for (String l : linie){
             String[] liniaPodzielona = l.split(",", 3);
@@ -43,15 +44,32 @@ public class CzytaniePliku {
             }
 
             uczniowie.add(uczen);
+            uczniowieJakoMapa.put(numer, uczen);
             numer++;
+            
+            
 
         }
 
+        Uczen uczenZlisty = uczniowie.get(0);
 
+        Uczen uczenZmapy = uczniowieJakoMapa.get(1);
+
+        Collection<Uczen> uczniowieJakoKolekcja = uczniowieJakoMapa.values();
 
         System.out.println(uczniowie);
+        // sortowanie imionami
+
+        TreeSet<Uczen> posortowaniUczniowie = new TreeSet<>(uczniowie);
+
+
+        System.out.println("nieposortowani: " + uczniowie);
+        System.out.println("posortowani: " + posortowaniUczniowie);
 
 
     }
 
 }
+
+
+
