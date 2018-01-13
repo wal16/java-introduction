@@ -1,10 +1,23 @@
 package com.infoshareacademy.zadanie_domowe;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Uczen {
 
+    private int numerUcznia;
     private String imie;
     private String nazwisko;
-    private int[] oceny = new int[3];
+    private List<Integer> oceny = new ArrayList<>();
+
+    public int getNumerUcznia() {
+        return numerUcznia;
+    }
+
+    public void setNumerUcznia(int numerUcznia) {
+        this.numerUcznia = numerUcznia;
+    }
 
     public String getImie() {
         return imie;
@@ -22,28 +35,28 @@ public class Uczen {
         this.nazwisko = nazwisko;
     }
 
-    public int[] getOceny() {
+    public List<Integer> getOceny() {
         return oceny;
     }
 
-    public void setOceny(int[] oceny) {
+    public void setOceny(List<Integer> oceny) {
         this.oceny = oceny;
     }
 
     void ustawOceny(){
         for (int i = 0; i < 3; i++) {
-            oceny[i] = (int) (Math.random() * 5 + 1);
+            oceny.add((int) (Math.random() * 5 + 1));
         }
     }
 
     public double srednia(){
         double suma = 0;
 
-        for (int i=0; i< oceny.length; i++){
-            suma += oceny[i];
+        for (int ocena : oceny){
+            suma += ocena;
         }
 
-        return suma / oceny.length;
+        return suma / oceny.size();
     }
 
     public int najwyzsza(){
@@ -68,5 +81,13 @@ public class Uczen {
         return najnizsza;
     }
 
-
+    @Override
+    public String toString() {
+        return "Uczen{" +
+                "numerUcznia=" + numerUcznia +
+                ", imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", oceny=" + oceny +
+                '}';
+    }
 }

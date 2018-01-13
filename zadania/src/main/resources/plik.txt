@@ -1,1 +1,2 @@
-a,a,a,b,2,tak
+Jan,Kowalski,1,2,3,5,4
+Ania,Kowalska,2,3,4
