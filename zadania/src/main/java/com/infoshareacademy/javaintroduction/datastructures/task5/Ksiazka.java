@@ -42,6 +42,4 @@ public class Ksiazka implements Comparable<Ksiazka>{
     }
 
 
-
-
 }
