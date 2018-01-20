@@ -4,15 +4,21 @@ import com.infoshareacademy.javaintroduction.datastructures.task7.domain.Person;
 import com.infoshareacademy.javaintroduction.datastructures.task7.domain.Role;
 import com.infoshareacademy.javaintroduction.datastructures.task7.domain.User;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 public class UserService {
 
     public static List<User> findUsersWhoHaveMoreThanOneAddress(List<User> users) {
+        List<User> listaOdfiltrowana = new ArrayList<>();
+        for (User user : users){
+            if (user.getPersonDetails().getAddresses().size() > 1){
+                listaOdfiltrowana.add(user);
+            }
+        }
 
-
-        return null;
+        return listaOdfiltrowana;
     }
 
     public static Person findOldestPerson(List<User> users) {

@@ -11,4 +11,11 @@ public class Permission {
         this.name = name;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "Permission{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

@@ -32,4 +32,13 @@ public class User {
         this.personDetails = personDetails;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                ", personDetails=" + personDetails +
+                '}';
+    }
 }

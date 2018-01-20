@@ -24,4 +24,12 @@ public class Role {
         this.permissions = permissions;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "name='" + name + '\'' +
+                ", permissions=" + permissions +
+                '}';
+    }
 }

@@ -62,4 +62,16 @@ public class Address {
         this.country = country;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "streetName='" + streetName + '\'' +
+                ", houseNumber=" + houseNumber +
+                ", flatNumber=" + flatNumber +
+                ", city='" + city + '\'' +
+                ", postCode='" + postCode + '\'' +
+                ", country='" + country + '\'' +
+                '}';
+    }
 }

@@ -90,6 +90,7 @@ public class Task7 {
         // cd tworzenia listy
 
         List<User> przefiltrowanaLista = UserService.findUsersWhoHaveMoreThanOneAddress(users);
+        System.out.println(przefiltrowanaLista);
 
     }
 }
