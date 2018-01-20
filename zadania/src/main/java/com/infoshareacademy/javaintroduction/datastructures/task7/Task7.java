@@ -57,7 +57,7 @@ public class Task7 {
         user2.setName("user2");
         user2.setPassword("pass2");
         Person personDetails2 = new Person();
-        personDetails2.setAge(11);
+        personDetails2.setAge(12);
         personDetails2.setName("Marek2");
         personDetails2.setSurname("Sowa2");
         Permission uprawnienie3 = new Permission();
