@@ -1,7 +1,5 @@
 import com.infoshareacademy.javaintroduction.datastructures.task7.domain.*;
 import com.infoshareacademy.javaintroduction.datastructures.task7.service.UserService;
-import com.infoshareacademy.javaintroduction.datastructures.task7.domain.Permission;
-import org.junit.Before;
 import org.junit.Test;
 import java.util.*;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -10,9 +8,9 @@ public class UserServiceTest {
     @Test
     public void shouldReturnUsersWhichHasMoreThanOneAddress() {
         List<User> users = new ArrayList<>();
-        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList(new Address(), new Address(), new Address())))));
-        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList(new Address(), new Address())))));
-        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList(new Address())))));
+        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<>(Arrays.asList(new Address(), new Address(), new Address())))));
+        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<>(Arrays.asList(new Address(), new Address())))));
+        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<>(Arrays.asList(new Address())))));
 
         assertThat(UserService.findUsersWhoHaveMoreThanOneAddress(users)).hasSize(2);
     }
