@@ -17,6 +17,7 @@ public class UserServiceTest {
         assertThat(UserService.findUsersWhoHaveMoreThanOneAddress(users)).hasSize(2);
     }
 
+
     @Test
     public void findOldestPerson() {
         //given
