@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27bf3c06-8343-4b89-a386-c4e15bfc6ec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/src/main/java/com/infoshareacademy/javaintroduction/datastructures/task7/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania/src/main/java/com/infoshareacademy/javaintroduction/datastructures/task7/Task7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/src/test/java/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania/src/test/java/UserServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/zadania/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,15 +15,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UserServiceTest.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zadania/src/test/java/UserServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="75">
+              <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zadania/src/main/java/com/infoshareacademy/javaintroduction/datastructures/task7/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task7.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zadania/src/main/java/com/infoshareacademy/javaintroduction/datastructures/task7/Task7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -66,6 +76,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/zadania/src/test/java/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/zadania/src/main/java/com/infoshareacademy/javaintroduction/datastructures/task7/Task7.java" />
       </list>
     </option>
   </component>
@@ -94,7 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,28 +122,89 @@
               <item name="java-introduction" type="b2602c69:ProjectViewProjectNode" />
               <item name="zadania" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-introduction" type="b2602c69:ProjectViewProjectNode" />
               <item name="zadania" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-introduction" type="b2602c69:ProjectViewProjectNode" />
               <item name="zadania" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="infoshareacademy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="infoshareacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="javaintroduction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="infoshareacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="javaintroduction" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="infoshareacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="javaintroduction" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="infoshareacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="javaintroduction" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="infoshareacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="javaintroduction" type="462c0819:PsiDirectoryNode" />
+              <item name="interfejs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-introduction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="infoshareacademy" type="462c0819:PsiDirectoryNode" />
+              <item name="zadania" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -156,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.shouldFindUserWithLongestUsername">
+  <component name="RunManager" selected="JUnit.UserServiceTest.shouldReturnUsersWhichHasMoreThanOneAddress">
     <configuration name="UserServiceTest.findUsersWhoHaveMoreThanOneAddress" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-introduction" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -176,6 +248,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="UserServiceTest.findUsersWhoHaveMoreThanOneAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-introduction" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="findUsersWhoHaveMoreThanOneAddressTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="UserServiceTest.partitionUserByUnderAndOver18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-introduction" />
@@ -201,6 +290,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
       <option name="METHOD_NAME" value="shouldFindUserWithLongestUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="UserServiceTest.shouldReturnUsersWhichHasMoreThanOneAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-introduction" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="shouldReturnUsersWhichHasMoreThanOneAddress" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -253,9 +359,13 @@
       <item itemvalue="Android JUnit.UserServiceTest.findUsersWhoHaveMoreThanOneAddress" />
       <item itemvalue="JUnit.UserServiceTest.partitionUserByUnderAndOver18" />
       <item itemvalue="JUnit.UserServiceTest.shouldFindUserWithLongestUsername" />
+      <item itemvalue="JUnit.UserServiceTest.findUsersWhoHaveMoreThanOneAddressTest" />
+      <item itemvalue="JUnit.UserServiceTest.shouldReturnUsersWhichHasMoreThanOneAddress" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.shouldReturnUsersWhichHasMoreThanOneAddress" />
+        <item itemvalue="JUnit.UserServiceTest.findUsersWhoHaveMoreThanOneAddressTest" />
         <item itemvalue="JUnit.UserServiceTest.shouldFindUserWithLongestUsername" />
         <item itemvalue="JUnit.UserServiceTest.partitionUserByUnderAndOver18" />
         <item itemvalue="Android JUnit.UserServiceTest.findUsersWhoHaveMoreThanOneAddress" />
@@ -272,8 +382,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524776913643</updated>
-      <workItem from="1524776924079" duration="3786000" />
+      <workItem from="1524776924079" duration="6668000" />
+      <workItem from="1524809822785" duration="1772000" />
+      <workItem from="1524841669662" duration="2541000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix name branch WaldemarMozołaTask7Done">
+      <created>1524780871041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524780871041</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -295,51 +415,138 @@
     <history-entry file="UserServiceTest_shouldFindUserWithLongestUsername - 2018.04.26 at 23h 29m 25s.xml">
       <configuration name="UserServiceTest.shouldFindUserWithLongestUsername" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceTest_findUsersWhoHaveMoreThanOneAddressTest - 2018.04.27 at 09h 50m 04s.xml">
+      <configuration name="UserServiceTest.findUsersWhoHaveMoreThanOneAddressTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_shouldReturnUsersWhichHasMoreThanOneAddress - 2018.04.27 at 09h 53m 18s.xml">
+      <configuration name="UserServiceTest.shouldReturnUsersWhichHasMoreThanOneAddress" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_shouldReturnUsersWhichHasMoreThanOneAddress - 2018.04.27 at 17h 23m 03s.xml">
+      <configuration name="UserServiceTest.shouldReturnUsersWhichHasMoreThanOneAddress" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3786000" />
+    <option name="totallyTimeSpent" value="10981000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32917318" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24940239" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917318" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917318" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25737053" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix name branch WaldemarMozołaTask7Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix name branch WaldemarMozołaTask7Done" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zadania/src/test/java/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zadania/src/main/java/com/infoshareacademy/javaintroduction/datastructures/task7/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zadania/src/test/java/com/infoshareacademy/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zadania/src/main/java/com/infoshareacademy/javaintroduction/datastructures/task7/Task7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zadania/src/test/java/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zadania/src/test/java/com/infoshareacademy/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zadania/src/test/java/com/infoshareacademy/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -349,11 +556,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zadania/src/test/java/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="75">
+          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zadania/src/main/java/com/infoshareacademy/javaintroduction/datastructures/task7/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zadania/src/main/java/com/infoshareacademy/javaintroduction/datastructures/task7/Task7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
         </state>
       </provider>
     </entry>

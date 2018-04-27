@@ -78,19 +78,49 @@ public class Task7 {
         adres3.setPostCode("9999");
         adres3.setStreetName("street");
 
+// 3gi uzytkownik
+        User user3 = new User();
+        user3.setName("user3");
+        user3.setPassword("pass3");
+        Person personDetails3 = new Person();
+        personDetails3.setAge(13);
+        personDetails2.setName("Marek3");
+        personDetails2.setSurname("Sowa3");
+        Permission uprawnienie4 = new Permission();
+        uprawnienie4.setName("up1");
+
+        List<Permission> uprawnienia3 = Arrays.asList(uprawnienie4);
+        Role rola3 = new Role();
+        rola3.setName("rola3");
+        rola3.setPermissions(uprawnienia);
+
+        personDetails2.setRole(rola2);
+        personDetails2.setPhoneNumbers(Arrays.asList("0001", "1112", "9998"));
+        Address adres4 = new Address();
+        adres4.setCity("city");
+        adres4.setCountry("country");
+        adres4.setFlatNumber(5);
+        adres4.setHouseNumber(7);
+        adres4.setPostCode("9998");
+        adres4.setStreetName("street");
 
         personDetails2.setAddresses(Arrays.asList(adres3));
+        personDetails3.setAddresses(Arrays.asList(adres4));
 
         user2.setPersonDetails(personDetails2);
+        user3.setPersonDetails(personDetails3);
 
         users.add(user1);
         users.add(user2);
+        users.add(user3);
 
 
         // cd tworzenia listy
 
         List<User> przefiltrowanaLista = UserService.findUsersWhoHaveMoreThanOneAddress(users);
         System.out.println(przefiltrowanaLista);
+
+
 
     }
 }

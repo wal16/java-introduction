@@ -8,15 +8,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
 public class UserServiceTest {
     @Test
-    public void findUsersWhoHaveMoreThanOneAddress() {
-        List<User> users = new ArrayList<> ();
-        List<Address> addresses = new ArrayList<>();
-        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList (new Address(), new Address(), new Address())))));
-        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList (new Address(), new Address(), new Address())))));
-        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList (new Address(), new Address(),new Address(), new Address())))));
-        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList (new Address(), new Address(),new Address(), new Address())))));
-        assertThat(UserService.findUsersWhoHaveMoreThanOneAddress(users)).hasSize(4);
+    public void shouldReturnUsersWhichHasMoreThanOneAddress() {
+        List<User> users = new ArrayList<>();
+        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList(new Address(), new Address(), new Address())))));
+        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList(new Address(), new Address())))));
+        users.add(new User().setPersonDetails(new Person().setAddresses(new ArrayList<Address>(Arrays.asList(new Address())))));
+
+        assertThat(UserService.findUsersWhoHaveMoreThanOneAddress(users)).hasSize(2);
     }
+
     @Test
     public void findOldestPerson() {
         //given
